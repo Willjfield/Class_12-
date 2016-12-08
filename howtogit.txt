@@ -1,0 +1,20 @@
+1) Pick the github master and consolidate project in one folder on their computer.
+2) cd (into the folder with the consolidated project)
+3) git status (check if there's already a repo for the folder)
+4) git init (initialize a local git repo for that folder)
+5) git add * (add everything to the repo)
+6) git commit -m "message here" (commit what you've added to the repo)
+7) Log into github and click the + on the upper right
+8) Enter a name for the project
+9) When the project is created and you're on the next page, copy and paste the second to last line into terminal (git remote add origin ...)
+10) git push -u origin master
+
+11 <You want to make an update to the github.com repo>)
+	11a. cd into the directory of your repo if needed
+	11b. git add *
+	11c. git commit -m "a message that describes your updates"
+	11d. git push
+
+12 <You want to pull the latest updates that somebody else has made>)
+	12a. cd into the directory of your repo if needed
+	12b. git pull
